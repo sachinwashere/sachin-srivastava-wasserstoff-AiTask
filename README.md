@@ -3,6 +3,7 @@ This project implements a versatile, intelligent chatbot for WordPress sites, le
 
 <H6>Features</H6>
 RAG Model: Utilizes Hugging Face's RAG for generating responses by combining retrieved documents with generative models.
+ReRanker: Re-ranker takes the user's question and all the initially retrieved documents as input and re-ranks these documents based on how closely they match the question
 Embeddings: Employs Sentence-BERT for efficient and high-quality text embeddings.
 Vector Database: Uses Faiss for storing and retrieving embeddings quickly.
 Chain of Thought: Enhances responses with a logical progression and context continuity.
